@@ -103,16 +103,12 @@ int main(int argc, char** argv)
         std::chrono::duration<double> elapsed_seconds = end_time - start_time;
         double elapsed_time = elapsed_seconds.count();
 
-        // Calculate MFLOPs
-        // VMM operations approx = 2 * N * N (Multiply and Add for each element)
         double operations = 2.0 * n * n;
-        // MFLOPs = (Operations / 10^6) / Time
         double mflops = (operations / 1.0e6) / elapsed_time;
 
         std::cout << "elapsed time: " << elapsed_time << " seconds" << std::endl;
         std::cout << "Performance: " << mflops << " MFLOPs" << std::endl;
 
-        // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);
 
         // compare your result with that computed by BLAS
@@ -120,5 +116,6 @@ int main(int argc, char** argv)
            printf(" Error: your answer is not the same as that computed by BLAS. \n");
     
     } // end loop over problem sizes
-  }
+  
     return 0;
+}

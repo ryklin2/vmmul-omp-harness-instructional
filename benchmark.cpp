@@ -77,7 +77,7 @@ int main(int argc, char** argv)
     double* Y = Xcopy + max_size;
     double* Ycopy = Y + max_size;
 
-           // load up matrics with some random numbers
+            // load up matrics with some random numbers
     /* For each test size */
     for (int n : test_sizes) 
     {
@@ -94,6 +94,7 @@ int main(int argc, char** argv)
 
         // insert start timer code here
         auto start_time = std::chrono::high_resolution_clock::now();
+        
         // call the method to do the work
         my_dgemv(n, A, X, Y); 
 
@@ -102,8 +103,13 @@ int main(int argc, char** argv)
         std::chrono::duration<double> elapsed_seconds = end_time - start_time;
         double elapsed_time = elapsed_seconds.count();
 
-        //oh yeah maybe we should print it
-        std::cout << "elapsed time: " << elasped_time << " seconds" << std::endl;
+        // Calculate MFLOPs
+        // VMM operations approx = 2 * N * N (Multiply and Add for each element)
+        double operations = 2.0 * n * n;
+        // MFLOPs = (Operations / 10^6) / Time
+        double mflops = (operations / 1.0e6) / elapsed_time;
+
+        std::cout << "elapsed time: " << elapsed_time << " seconds" << std::endl;
         std::cout << "Performance: " << mflops << " MFLOPs" << std::endl;
 
         // now invoke the cblas method to compute the matrix-vector multiplye
@@ -116,6 +122,3 @@ int main(int argc, char** argv)
     } // end loop over problem sizes
 
     return 0;
-}
-
-// EOF

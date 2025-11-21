@@ -1,0 +1,20 @@
+Description:	Basic implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+elapsed time: 0.00090 seconds
+Performance: 2332.84129 MFLOPs
+Working on problem size N=1024 
+elapsed time: 0.00091 seconds
+Performance: 2296.19540 MFLOPs
+Working on problem size N=2048 
+elapsed time: 0.00359 seconds
+Performance: 2336.38822 MFLOPs
+Working on problem size N=4096 
+elapsed time: 0.01457 seconds
+Performance: 2303.04731 MFLOPs
+Working on problem size N=8192 
+elapsed time: 0.05837 seconds
+Performance: 2299.57535 MFLOPs
+Working on problem size N=16384 
+elapsed time: 0.23389 seconds
+Performance: 2295.41393 MFLOPs

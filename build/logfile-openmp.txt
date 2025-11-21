@@ -1,0 +1,64 @@
+=== OMP_NUM_THREADS=1 ===
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+elapsed time: 0.00090 seconds
+Performance: 2339.80629 MFLOPs
+Working on problem size N=1024 
+elapsed time: 0.00090 seconds
+Performance: 2339.12514 MFLOPs
+Working on problem size N=2048 
+elapsed time: 0.00357 seconds
+Performance: 2351.07385 MFLOPs
+Working on problem size N=4096 
+elapsed time: 0.01454 seconds
+Performance: 2307.03652 MFLOPs
+Working on problem size N=8192 
+elapsed time: 0.05827 seconds
+Performance: 2303.21381 MFLOPs
+Working on problem size N=16384 
+elapsed time: 0.23338 seconds
+Performance: 2300.43127 MFLOPs
+=== OMP_NUM_THREADS=4 ===
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+elapsed time: 0.00085 seconds
+Performance: 2453.37464 MFLOPs
+Working on problem size N=1024 
+elapsed time: 0.00048 seconds
+Performance: 4349.01589 MFLOPs
+Working on problem size N=2048 
+elapsed time: 0.00166 seconds
+Performance: 5040.72185 MFLOPs
+Working on problem size N=4096 
+elapsed time: 0.00507 seconds
+Performance: 6622.98874 MFLOPs
+Working on problem size N=8192 
+elapsed time: 0.01576 seconds
+Performance: 8516.20254 MFLOPs
+Working on problem size N=16384 
+elapsed time: 0.06001 seconds
+Performance: 8946.83635 MFLOPs
+=== OMP_NUM_THREADS=16 ===
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+elapsed time: 0.00211 seconds
+Performance: 992.20018 MFLOPs
+Working on problem size N=1024 
+elapsed time: 0.00041 seconds
+Performance: 5075.03588 MFLOPs
+Working on problem size N=2048 
+elapsed time: 0.00164 seconds
+Performance: 5111.90968 MFLOPs
+Working on problem size N=4096 
+elapsed time: 0.00538 seconds
+Performance: 6238.48116 MFLOPs
+Working on problem size N=8192 
+elapsed time: 0.01420 seconds
+Performance: 9451.02488 MFLOPs
+Working on problem size N=16384 
+elapsed time: 0.05667 seconds
+Performance: 9473.01312 MFLOPs
+=== OMP_NUM_THREADS=64 ===

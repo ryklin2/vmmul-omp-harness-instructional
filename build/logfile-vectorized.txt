@@ -1,0 +1,20 @@
+Description:	Vectorized implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+elapsed time: 0.00047 seconds
+Performance: 4433.02225 MFLOPs
+Working on problem size N=1024 
+elapsed time: 0.00021 seconds
+Performance: 10081.39524 MFLOPs
+Working on problem size N=2048 
+elapsed time: 0.00098 seconds
+Performance: 8550.74727 MFLOPs
+Working on problem size N=4096 
+elapsed time: 0.00409 seconds
+Performance: 8205.55840 MFLOPs
+Working on problem size N=8192 
+elapsed time: 0.01695 seconds
+Performance: 7920.04806 MFLOPs
+Working on problem size N=16384 
+elapsed time: 0.06902 seconds
+Performance: 7778.11562 MFLOPs

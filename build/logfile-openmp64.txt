@@ -1,0 +1,20 @@
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+elapsed time: 0.00726 seconds
+Performance: 288.75752 MFLOPs
+Working on problem size N=1024 
+elapsed time: 0.00065 seconds
+Performance: 3236.46555 MFLOPs
+Working on problem size N=2048 
+elapsed time: 0.00173 seconds
+Performance: 4861.54074 MFLOPs
+Working on problem size N=4096 
+elapsed time: 0.00410 seconds
+Performance: 8175.06508 MFLOPs
+Working on problem size N=8192 
+elapsed time: 0.01451 seconds
+Performance: 9250.50087 MFLOPs
+Working on problem size N=16384 
+elapsed time: 0.05847 seconds
+Performance: 9181.53167 MFLOPs

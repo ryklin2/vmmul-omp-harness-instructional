@@ -1,0 +1,20 @@
+Description:	Reference dgemv.
+
+Working on problem size N=1024 
+elapsed time: 0.00051 seconds
+Performance: 4081.77756 MFLOPs
+Working on problem size N=1024 
+elapsed time: 0.00016 seconds
+Performance: 13050.02458 MFLOPs
+Working on problem size N=2048 
+elapsed time: 0.00051 seconds
+Performance: 16507.71111 MFLOPs
+Working on problem size N=4096 
+elapsed time: 0.00409 seconds
+Performance: 8207.80845 MFLOPs
+Working on problem size N=8192 
+elapsed time: 0.01817 seconds
+Performance: 7386.07605 MFLOPs
+Working on problem size N=16384 
+elapsed time: 0.07141 seconds
+Performance: 7518.66424 MFLOPs

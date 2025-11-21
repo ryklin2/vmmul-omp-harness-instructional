@@ -120,5 +120,5 @@ int main(int argc, char** argv)
            printf(" Error: your answer is not the same as that computed by BLAS. \n");
     
     } // end loop over problem sizes
-
+  }
     return 0;
